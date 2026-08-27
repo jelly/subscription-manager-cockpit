@@ -28,6 +28,7 @@ jobs:
     targets: &test_targets
       fedora-43: {}
       fedora-44: {}
+      fedora-45: {}
       fedora-rawhide: {}
       centos-stream-9-x86_64: {}
       centos-stream-10-x86_64: {}
@@ -69,6 +70,7 @@ jobs:
       - fedora-development
       - fedora-43
       - fedora-44
+      - fedora-45
 
   - job: koji_build
     trigger: commit

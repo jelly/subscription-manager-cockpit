@@ -76,10 +76,10 @@ jobs:
       - fedora-development
       - fedora-43
       - fedora-44
+      - fedora-45
 
   - job: bodhi_update
     trigger: commit
     dist_git_branches:
       # rawhide updates are created automatically
-      - fedora-43
-      - fedora-44
+      - fedora-branched
